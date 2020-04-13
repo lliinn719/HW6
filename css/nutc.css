@@ -56,16 +56,17 @@ nav {
     color: red;
 }
 .banner {
-    max-width: 960px;
+    width: 960px;
+    min-width: 960px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
 .banner .left {
-    width: 250px;
+    width: 200px;
 }
 .banner .left img {
-    width: 250px;
+    width: 240px;
     height: 120px;
 }
 .banner .right {
@@ -196,7 +197,6 @@ footer {
     width: 100%;
     min-width: 960px;
     margin-top: 10px;
-    background: linear-gradient(white,#dedede,#D9D9D9);
 }
 .footer_top {
     width: 960px;
@@ -253,6 +253,7 @@ footer {
     font-size: 12px;
     padding: 10px 50px;
     margin: 0px auto;
+    text-align: center;
 }
 .bottom_text a {
     color: #fff;
